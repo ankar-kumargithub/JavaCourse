@@ -1,0 +1,65 @@
+JAVA Basics QUERVIEW
+
+* What is JAVA ?
+-Platform Independent Language -
+-Supports OOPS
+-Portability [WORA] => Write Once Run Anywhere
+
+* 3 Main Components Of Java
+JDK
+JRE
+JVM
+
+___________________________________________________________________________________________
+
+=> JVM : Java Virtual Machine
+
+- It's just an abstract machine that doesn't exist physically .
+
+Java        Compiler               JVM                       CPU
+Program   -----------> Bytecode ----------> Machine Code  ----------> Output
+
+So JVM is platform dependent
+
+So we need to install JVM based on the platform i.e MacOS ,Linux or windows.
+Input for JVM is bytecode & output is machine code .
+
+Now since bytecode can be run by any JVM , it makes a Java program platform independent .
+
+JVM has JIT (Just In Time) compiler which takes bytecode & convert it into machine code.
+
+___________________________________________________________________________________________
+
+=> JRE : Java Runtime Environment
+
+* JRE Contains JVM & class libraries i.e the libraries which we've used in the code.
+
+Class
+Libraries   +    JVM   =   JRE
+
+
+So if we have JRE, we can run any Java Program but we cannot code the program.
+
+____________________________________________________________________________________________
+
+=> JDK : Java Development Kit
+
+It has programs language information -
+It has compiler (javac)
+It has debugger
+So JDK = JRE +(Program Language + Compiler + Debugger + Other Components)
+
+So JUM, JRE & JDK all three are platform dependent but the Compiled bytecode is platform independent.
+
+
+
+________________________________________________________________________________________________
+
+
+* JSE : Java Standard Edition
+JEE : Java Enterprise Edition 1 Jakarta (2)
+JME : Java Micro / Mobile Edition
+
+JSE is the core Java
+Ja E = JS2 + Servlets + JSP+ Transaction AP1 + Persistence API
+JME = API for mobile applications
